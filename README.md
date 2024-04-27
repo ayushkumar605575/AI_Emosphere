@@ -1,4 +1,4 @@
 # AI_Emosphere
 
 Description.
-Testing...
+Chatbot Assistant with Emotion Detection through voice.

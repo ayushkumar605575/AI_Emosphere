@@ -47,7 +47,7 @@ class Prop:
         self.engine = pyttsx3.init('sapi5')
         voices = self.engine.getProperty('voices')
         self.engine.setProperty('voice', voices[1].id)
-        openai.api_key = r"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"
+        openai.api_key = API_KEY #API Key goes here
         with open(r"mlp_98_2.h5",'rb') as model:
             self.emotion_model = load(model)
             model.close()
